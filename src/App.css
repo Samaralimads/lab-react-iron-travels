@@ -36,3 +36,52 @@
 .text-iron {
   color: #0a035a;
 }
+
+.imageCtn img {
+  width: 350px;
+  margin: 3rem;
+}
+.container {
+  border: 1px solid black;
+  display: flex;
+  width: 45vw;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.textCtn {
+  display: black;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.listCtn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.coloredCtn {
+  display: flex;
+  flex-direction: row;
+}
+.GDLabel,
+.AILabel,
+.PLabel {
+  height: 3rem;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  color: white;
+  gap: 20px;
+}
+.GDLabel {
+  background-color: green;
+  border-radius: 15px;
+}
+.AILabel,
+.PLabel {
+  background-color: cornflowerblue;
+  border-radius: 15px;
+}
